@@ -1,0 +1,67 @@
+* {
+    padding-bottom: 0%;
+    margin: 2;
+    box-sizing: border-box;
+    color: rgb(96, 2, 52);
+    font-family: sans-serif;
+
+}
+
+ul {
+    text-align: right justify;
+    list-style: circle;
+    font-size: 20px;
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+body { 
+    background-image: url(./pexels-goumbik-574070.jpg);
+    background-position: center center fixed;
+    background-size: cover;
+}
+
+header {
+    box-shadow: 1px 1px 10px 1px #b38a9e;
+
+}
+
+header ul a:hover {
+    margin: 5px;
+    color: rgb(183, 66, 159);
+    text-decoration: underline;
+}
+
+
+.container {
+text-align: center;
+}
+
+
+.container .name h1 {
+    font-size: 55px;
+
+}
+
+
+#arrow {
+    font-size: 30px;
+    cursor: pointer;
+    animation: blink 2s steps(5, start) infinite;
+
+}
+
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}
+
+#about p {
+    max-width: 600px;
+    margin: 0 auto;
+}
